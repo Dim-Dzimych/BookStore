@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStore.Web</name>
+    </assembly>
+    <members>
+        <member name="M:BookStore.Web.Controllers.BookController.GetBooks(BookStore.Application.Models.FilterModel)">
+            <summary>
+            Получение всех книг с фильтрацией
+            </summary>
+            <param name="filter">параметры фильтрации</param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore.Web.Controllers.BookController.GetBookInfoById(System.Int32)">
+            <summary>
+            Получений книги по передаваемому айди
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore.Web.Controllers.BookController.CreateBook(BookStore.Application.Models.BookModel)">
+            <summary>
+            Создание книги
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore.Web.Controllers.OrderController.CreateOrder(BookStore.Application.Models.OrderModel)">
+            <summary>
+            Создание заказа (БД: книга + заказ)
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore.Web.Controllers.OrderController.GetOrdersByDateAndCustomerId(System.DateTime,System.Int32)">
+            <summary>
+            Получение книг по двум параметрам
+            </summary>
+            <param name="date"></param>
+            <param name="customerId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
